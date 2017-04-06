@@ -12,6 +12,7 @@ Look into Feature Extraction Folder first too see how to feature extract using K
 
 # Finetuneing Folder:
 Shows how to Finetune in Keras. 
+ResNet50finetune.py contains the abstracted network that needs to be finetuned. You will add the top layer.
 
 How to Finetune in Caffe:
 http://cs231n.stanford.edu/slides/2016/winter1516_lecture12.pdf 
