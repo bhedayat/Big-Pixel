@@ -1,5 +1,12 @@
 # Big-Pixel
 
+# Dataset
+Kaggle Draper Satellite Chronology Dataset. In total there are 344 locations. Each location has 5 images. Total: 1720 images.
+For each location 3 images are used for Training and 2 images are used for Validation. Training: 1032 images. Validation: 688 images.
+
+https://www.kaggle.com/c/draper-satellite-image-chronology
+
+# Feature Extraction 
 Look into Feature Extraction Folder first too see how to feature extract using Keras/Caffe.
 
 
