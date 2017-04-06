@@ -16,7 +16,8 @@ from keras.utils.data_utils import get_file
 from keras import backend as K
 from keras.regularizers import l2
 from keras.models import Sequential
-from keras.applications.resnet50 import ResNet50
+#from keras.applications.resnet50 import ResNet50
+from myresnet50 import ResNet50
 
 def ResNet50finetune():
     #Import model without top
@@ -35,8 +36,9 @@ def ResNet50finetune():
     # to non-trainable (weights will not be updated)
     for layer in final_model.layers[:175]:
         layer.trainable = False
-	if "BatchNormalization" in str(layer):
-		layer.mode = 1
+        #Does not help in setting mode to 1 for B.N. Layer  
+	#if "BatchNormalization" in str(layer):
+	#	layer.mode = 1
     
     return final_model
 
