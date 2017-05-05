@@ -22,7 +22,7 @@ http://cs231n.stanford.edu/slides/2016/winter1516_lecture12.pdf
 Starting from slide 11
 
 # Experiments:
-https://docs.google.com/document/d/1xGTAIGoygsyUx7va-xoh0cKTAov1ASoxVmfiBuM35UA/edit
+https://docs.google.com/a/eng.ucsd.edu/document/d/1xGTAIGoygsyUx7va-xoh0cKTAov1ASoxVmfiBuM35UA/edit?usp=sharing
 
 # Feature Subselection and Concatenation Folder:
    1) Contains code to use Random Forest for feature subselection
