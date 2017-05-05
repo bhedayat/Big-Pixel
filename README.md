@@ -32,5 +32,8 @@ https://docs.google.com/a/eng.ucsd.edu/document/d/1xGTAIGoygsyUx7va-xoh0cKTAov1A
 # Extra Folder:
     How to plot the Validation Accuracy/Training loss using log.txt file. Used for Caffe.
 
+# Test:
+	Contains SVC classifier for UC Merced Test set.
+
     
  
